@@ -1,0 +1,65 @@
+html,body,footer {
+    height:100%;
+    margin: 0px;
+}
+
+h1{
+    display: inline-block;
+    vertical-align:bottom;
+}
+header {
+    text-align: center;    
+    background:#1976d2;
+    padding:10px 0px;
+    color:#fff;
+
+}
+section {
+    width: 79%;
+    background: #BBDEFB;
+    float: left;
+    overflow: auto;
+    padding-bottom: 60px;
+    padding-top:30px;
+}
+
+aside {
+    float: left;
+    width: 19%;
+    /*Si quisieramos ocultar el contenido relacionado pondriamos visibility a hidden*/
+    /*visibility: hidden;*/
+}
+footer {
+    position: relative;
+    margin-top: -50px;
+    height: 40px; 
+    padding:5px 0px;
+    clear: both;
+    background: #1976D2;
+    text-align: center;
+    color: #fff;
+}
+figure {
+    display: table; 
+    margin: 0 auto;
+}
+
+
+#image-icon{
+    width: 70px;
+    display: inline-block;
+}
+
+#jane-image{
+    width: 200px;
+    height: 390px;
+}
+
+#irene-llego-tarde{
+    text-align: center;
+    background: #3b5998;
+    padding: 10px 0px 18px 0px;
+    color: #fff;
+    height: 200px;
+    border-bottom: 24px solid #000;
+}
